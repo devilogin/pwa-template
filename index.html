@@ -230,6 +230,7 @@ button {
         });
     }
 
+window.addEventListener("click", installApp);
     
 window.addEventListener("DOMContentLoaded", async event => {
   if ('BeforeInstallPromptEvent' in window) {
@@ -237,7 +238,6 @@ window.addEventListener("DOMContentLoaded", async event => {
   } else {
     showResult("❌ BeforeInstallPromptEvent NOT supported");    
   }
-  document.querySelector("#install").addEventListener("click", installApp);
 });
 
 let deferredPrompt;
