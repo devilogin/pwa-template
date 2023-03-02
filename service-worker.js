@@ -1,6 +1,6 @@
 var CACHE_NAME = 'PWA Template';
 var urlsToCache = [
-  'https://henryegloff.com/demos/pwa-template/index.html'
+  'https://csuwildcat.github.io/pwa-template/index.html'
 ];
 
 self.addEventListener('install', function(event) {
